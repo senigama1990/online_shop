@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(http://pngimg.com/uploads/watches/watches_PNG101443.png);
+    background-position: center 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;  
+    background-color: -webkit-linear-gradient(to right, #434343, #000000); 
+    background-color: linear-gradient(to right, #434343, #000000); 
+}
+.header_content {
+    margin-top: 30%;
+    padding-right: 60px;
+}
+.header_title {
+    text-transform: uppercase;
+    font-size: 42px;
+    text-align: end;
+    color: #FF8C00;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.header_text {
+    color: #FF8C00;
+    text-align: end;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.navigation {
+    width: 100%;
+    height: 70px;
+    padding: 20px 60px 10px;
+}
+.navigation__wrapper {
+    display: flex;
+    align-items: center;
+}
+.nav__logo {
+    margin-right: 60px;
+}
+.nav__logo a {
+    text-decoration: none;
+    font-size: 25px;
+    color:orange;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li {
+    margin-right: 30px;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+}
+.navbar ul li:first-child a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li:first-child a .arrow_down_icon {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.nav_icons {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.nav_icons ul {
+    list-style-type: none;
+}
+.nav_icons ul button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 40px;
+    font-size: 20px;
+    color: orange;
+}
