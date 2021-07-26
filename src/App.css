@@ -15,20 +15,21 @@
     background-color: linear-gradient(to right, #434343, #000000); 
 }
 .header_content {
-    margin-top: 30%;
     padding-right: 60px;
+    position: absolute;
+    top: 73%;
+    right: 0;
+    
 }
 .header_title {
     text-transform: uppercase;
     font-size: 42px;
-    text-align: end;
     color: #FF8C00;
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
 .header_text {
     color: #FF8C00;
-    text-align: end;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -36,6 +37,7 @@
     width: 100%;
     height: 70px;
     padding: 20px 60px 10px;
+    position: fixed;
 }
 .navigation__wrapper {
     display: flex;
@@ -91,4 +93,5 @@
     margin-left: 40px;
     font-size: 20px;
     color: orange;
+    cursor: pointer;
 }
